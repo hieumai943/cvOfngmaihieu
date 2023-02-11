@@ -8,14 +8,13 @@
 body{
   background-color: #ccd5ae;
   display: flex;
-  height: 220vh;
+  margin-bottom: 10vh;
 }
 #introduce{
   position: relative;
  background-color: #003147;
  color: #FFF;
  width: 40%;
- height: 200vh;
  margin-left: 20%;
  margin-top: 30px;
 letter-spacing: 1px;
@@ -63,9 +62,10 @@ letter-spacing: 1px;
 }
 #particular{
   position: relative;
+
  background-color: #CCFFFF;
 width: 40%;
-height: 200vh;
+
 margin-top: 30px;
 margin-right:20%
 
@@ -117,9 +117,12 @@ margin-right:20%
   color: #FFF;
 }
 .profileText ul li a{
- 
+ text-decoration: none;
   color: #FFF;
 }
+.profileText ul li:hover a{
+   color: #03a9f4;
+ }
 .profileText::after{
   
   position: absolute;
@@ -209,4 +212,12 @@ margin-right:20%
   background-size: 100%;
   background-repeat: no-repeat;
   margin-right: 20px;
+}
+.gpa.project .game a{
+  color: black;
+  text-decoration: none;
+}
+.gpa.project .game a:hover{
+  text-decoration: none;
+  color: darkmagenta;
 }
